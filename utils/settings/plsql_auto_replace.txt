@@ -1,0 +1,23 @@
+ssf=select * from
+upf=update tbA set colA='' where colB=''
+sfd=select sysdate from dual
+df=delete from tbA where colA
+ssfu=select * from tbA for update
+ct=create table
+ii=insert into
+ob= order by
+gb= group by
+fu= for update
+s=select
+f=from
+w=where
+lj=left join
+rj=right join
+u=update
+d=delete
+i=insert
+it=into
+de=desc
+cw=case when colA=colB then colC else colD end
+tc=to_char(colA)
+td=to_date(colA,'yyyy/mm/dd hh24:mi:ss')

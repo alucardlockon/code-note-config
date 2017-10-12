@@ -1,0 +1,1 @@
+D:\Programs\IntelliJIDEALicenseServer\IntelliJIDEALicenseServer_windows_amd64.exe -u yuwh -p 60891

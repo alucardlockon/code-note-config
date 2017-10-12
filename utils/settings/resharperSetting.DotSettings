@@ -1,0 +1,681 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:Boolean x:Key="/Default/CodeEditing/ContextActionTable/DisabledContextActions/=JetBrains_002EReSharper_002EIntentions_002ECSharp_002EContextActions_002EImportStaticMembersAction/@EntryIndexedValue">False</s:Boolean>
+	<s:Boolean x:Key="/Default/CodeEditing/Intellisense/CodeCompletion/CacheImportCompletion/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/CodeEditing/Intellisense/CodeCompletion/IntelliSenseCompletingCharacters/CSharpCompletingCharacters/UpgradedFromVSSettings/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/CodeInspection/Highlighting/DoNotShowVsBulb/@EntryValue">False</s:Boolean>
+	<s:String x:Key="/Default/CodeInspection/Highlighting/InspectionSeverities/=CoercedEqualsUsing/@EntryIndexedValue">DO_NOT_SHOW</s:String>
+	<s:String x:Key="/Default/CodeInspection/Highlighting/InspectionSeverities/=UseObjectOrCollectionInitializer/@EntryIndexedValue">DO_NOT_SHOW</s:String>
+	<s:Int64 x:Key="/Default/CodeStyle/CodeFormatting/CSharpFormat/KEEP_BLANK_LINES_IN_CODE/@EntryValue">1</s:Int64>
+	<s:Int64 x:Key="/Default/CodeStyle/CodeFormatting/HtmlFormatter/MaxBlankLines/@EntryValue">0</s:Int64>
+	<s:Int64 x:Key="/Default/CodeStyle/CodeFormatting/JavaScriptCodeFormatting/KEEP_BLANK_LINES_BETWEEN_DECLARATIONS/@EntryValue">1</s:Int64>
+	<s:Int64 x:Key="/Default/CodeStyle/CodeFormatting/JavaScriptCodeFormatting/KEEP_BLANK_LINES_IN_CODE/@EntryValue">1</s:Int64>
+	<s:String x:Key="/Default/CodeStyle/CodeFormatting/JavaScriptCodeFormatting/QUOTE_STYLE/@EntryValue">SingleQuoted</s:String>
+	<s:String x:Key="/Default/CodeStyle/CodeFormatting/JavaScriptCodeFormatting/WRAP_CHAINED_BINARY_EXPRESSIONS/@EntryValue">WRAP_IF_LONG</s:String>
+	<s:String x:Key="/Default/CodeStyle/CSharpVarKeywordUsage/ForBuiltInTypes/@EntryValue">UseExplicitType</s:String>
+	<s:String x:Key="/Default/CodeStyle/CSharpVarKeywordUsage/ForOtherTypes/@EntryValue">UseExplicitType</s:String>
+	<s:String x:Key="/Default/CodeStyle/CSharpVarKeywordUsage/ForSimpleTypes/@EntryValue">UseExplicitType</s:String>
+	<s:String x:Key="/Default/CodeStyle/Naming/JavaScriptNaming/UserRules/=JS_005FBLOCK_005FSCOPE_005FCONSTANT/@EntryIndexedValue">&lt;Policy Inspect="True" Prefix="" Suffix="" Style="aaBb" /&gt;</s:String>
+	<s:String x:Key="/Default/CodeStyle/Naming/JavaScriptNaming/UserRules/=JS_005FBLOCK_005FSCOPE_005FFUNCTION/@EntryIndexedValue">&lt;Policy Inspect="True" Prefix="" Suffix="" Style="aaBb" /&gt;</s:String>
+	<s:String x:Key="/Default/CodeStyle/Naming/JavaScriptNaming/UserRules/=JS_005FBLOCK_005FSCOPE_005FVARIABLE/@EntryIndexedValue">&lt;Policy Inspect="True" Prefix="" Suffix="" Style="aaBb" /&gt;</s:String>
+	<s:String x:Key="/Default/CodeStyle/Naming/JavaScriptNaming/UserRules/=JS_005FCLASS/@EntryIndexedValue">&lt;Policy Inspect="True" Prefix="" Suffix="" Style="aaBb" /&gt;</s:String>
+	<s:String x:Key="/Default/CodeStyle/Naming/JavaScriptNaming/UserRules/=JS_005FCONSTRUCTOR/@EntryIndexedValue">&lt;Policy Inspect="True" Prefix="" Suffix="" Style="AaBb" /&gt;</s:String>
+	<s:String x:Key="/Default/CodeStyle/Naming/JavaScriptNaming/UserRules/=JS_005FFUNCTION/@EntryIndexedValue">&lt;Policy Inspect="True" Prefix="" Suffix="" Style="aaBb" /&gt;</s:String>
+	<s:String x:Key="/Default/CodeStyle/Naming/JavaScriptNaming/UserRules/=JS_005FGLOBAL_005FVARIABLE/@EntryIndexedValue">&lt;Policy Inspect="True" Prefix="" Suffix="" Style="AaBb" /&gt;</s:String>
+	<s:String x:Key="/Default/CodeStyle/Naming/JavaScriptNaming/UserRules/=JS_005FLABEL/@EntryIndexedValue">&lt;Policy Inspect="True" Prefix="" Suffix="" Style="aaBb" /&gt;</s:String>
+	<s:String x:Key="/Default/CodeStyle/Naming/JavaScriptNaming/UserRules/=JS_005FLOCAL_005FCONSTRUCTOR/@EntryIndexedValue">&lt;Policy Inspect="True" Prefix="" Suffix="" Style="AaBb" /&gt;</s:String>
+	<s:String x:Key="/Default/CodeStyle/Naming/JavaScriptNaming/UserRules/=JS_005FLOCAL_005FVARIABLE/@EntryIndexedValue">&lt;Policy Inspect="True" Prefix="" Suffix="" Style="aaBb" /&gt;</s:String>
+	<s:String x:Key="/Default/CodeStyle/Naming/JavaScriptNaming/UserRules/=JS_005FOBJECT_005FPROPERTY_005FOF_005FFUNCTION/@EntryIndexedValue">&lt;Policy Inspect="True" Prefix="" Suffix="" Style="aaBb" /&gt;</s:String>
+	<s:String x:Key="/Default/CodeStyle/Naming/JavaScriptNaming/UserRules/=JS_005FPARAMETER/@EntryIndexedValue">&lt;Policy Inspect="True" Prefix="" Suffix="" Style="aaBb" /&gt;</s:String>
+	<s:String x:Key="/Default/CodeStyle/Naming/WebNaming/UserRules/=ASP_005FFIELD/@EntryIndexedValue">&lt;Policy Inspect="True" Prefix="" Suffix="" Style="AaBb" /&gt;</s:String>
+	<s:String x:Key="/Default/CodeStyle/Naming/WebNaming/UserRules/=ASP_005FHTML_005FCONTROL/@EntryIndexedValue">&lt;Policy Inspect="True" Prefix="" Suffix="" Style="AaBb" /&gt;</s:String>
+	<s:String x:Key="/Default/CodeStyle/Naming/WebNaming/UserRules/=ASP_005FTAG_005FNAME/@EntryIndexedValue">&lt;Policy Inspect="True" Prefix="" Suffix="" Style="AaBb" /&gt;</s:String>
+	<s:String x:Key="/Default/CodeStyle/Naming/WebNaming/UserRules/=ASP_005FTAG_005FPREFIX/@EntryIndexedValue">&lt;Policy Inspect="True" Prefix="" Suffix="" Style="AaBb" /&gt;</s:String>
+	<s:Boolean x:Key="/Default/Environment/ExternalSources/Decompiler/DecompileMethodBodies/@EntryValue">False</s:Boolean>
+	<s:Boolean x:Key="/Default/Environment/ExternalSources/FirstTimeFormShown/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/Environment/ExternalSources/PdbNavigation/Download/@EntryValue">False</s:Boolean>
+	<s:Boolean x:Key="/Default/Environment/Feedback/ShouldPrompt/@EntryValue">False</s:Boolean>
+	<s:String x:Key="/Default/Environment/Hierarchy/PsiConfigurationSettingsKey/LocationType/@EntryValue">TEMP_FOLDER</s:String>
+	<s:Boolean x:Key="/Default/Environment/MemoryUsageIndicator/IsVisible/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/Environment/SettingsMigration/IsMigratorApplied/=JetBrains_002EReSharper_002EPsi_002ECSharp_002ECodeStyle_002ESettingsUpgrade_002EAddAccessorOwnerDeclarationBracesMigration/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/Environment/SettingsMigration/IsMigratorApplied/=JetBrains_002EReSharper_002EPsi_002ECSharp_002ECodeStyle_002ESettingsUpgrade_002EMigrateBlankLinesAroundFieldToBlankLinesAroundProperty/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/Environment/SettingsMigration/IsMigratorApplied/=JetBrains_002EReSharper_002EPsi_002ECSharp_002ECodeStyle_002ESettingsUpgrade_002EMigrateThisQualifierSettings/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/Environment/SettingsMigration/IsMigratorApplied/=JetBrains_002EReSharper_002EPsi_002EJavaScript_002ECodeStyle_002ESettingsUpgrade_002EJsParsFormattingSettingsUpgrader/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/Environment/SettingsMigration/IsMigratorApplied/=JetBrains_002EReSharper_002EPsi_002EJavaScript_002ECodeStyle_002ESettingsUpgrade_002EJsWrapperSettingsUpgrader/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/Environment/TreeGridPresentableViewSearchBox/WasNoticeShown/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/Environment/UpdatesManger/LastUpdateCheck/@EntryValue">04/05/2017 19:41:13</s:String>
+	<s:Int64 x:Key="/Default/Environment/UserInterface/TodoGrouping/GroupingIndex/@EntryValue">1</s:Int64>
+	<s:Boolean x:Key="/Default/Housekeeping/FeatureSuggestion/FeatureSuggestionManager/DisabledSuggesters/=GotoSuggester/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/Housekeeping/FeatureSuggestion/FeatureSuggestionManager/DisabledSuggesters/=TabNavigationExplainer/@EntryIndexedValue">True</s:Boolean>
+	<s:String x:Key="/Default/Housekeeping/FeedbackReport/SelectedUserIdentificator/@EntryValue">anonymous</s:String>
+	<s:Boolean x:Key="/Default/Housekeeping/GlobalSettingsUpgraded/IsUpgraded/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/Housekeeping/IntellisenseHousekeeping/HintUsed/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/Housekeeping/Layout/DialogWindows/OptionsDialog/Position/@EntryValue">[28.8,33.6](1024,768)</s:String>
+	<s:String x:Key="/Default/Housekeeping/Layout/DialogWindows/OptionsDialog/SelectedPageId/@EntryValue">JavaScriptLineBreaks</s:String>
+	<s:Boolean x:Key="/Default/Housekeeping/LiveTemplatesHousekeeping/HotspotSessionHintIsShown/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/Housekeeping/RefactoringsMru/UseInline/@EntryValue">False</s:Boolean>
+	<s:Boolean x:Key="/Default/Housekeeping/TreeModelBrowserPanelPersistence/IsPreviewVisible/=TodoExplorerDescriptor/@EntryIndexedValue">False</s:Boolean>
+	<s:Double x:Key="/Default/Housekeeping/TreeModelBrowserPanelPersistence/PreviewSplitterHorizontalProportion/=TodoExplorerDescriptor/@EntryIndexedValue">0.1636919938806736</s:Double>
+	<s:Boolean x:Key="/Default/Housekeeping/UpgradeFromExceptionReport/UpgradePerformed/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=026911FC2AEE0F408F61FD218B7EEAE2/@KeyIndexDefined">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=026911FC2AEE0F408F61FD218B7EEAE2/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=026911FC2AEE0F408F61FD218B7EEAE2/Categories/=nf_005Fhrp/@EntryIndexedValue">nf_hrp</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=026911FC2AEE0F408F61FD218B7EEAE2/Description/@EntryValue">hrp分页</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=026911FC2AEE0F408F61FD218B7EEAE2/Reformat/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=026911FC2AEE0F408F61FD218B7EEAE2/Shortcut/@EntryValue">hrp_fenye</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=026911FC2AEE0F408F61FD218B7EEAE2/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=026911FC2AEE0F408F61FD218B7EEAE2/Text/@EntryValue">$SYSUSER$ $queryClass$ = new $SYSUSER$ ();&#xD;
+&#xD;
+CustomPagModel pageModel = new CustomPagModel();&#xD;
+pageModel.ExecuteSql = $queryClass$.SelectString();&#xD;
+&#xD;
+string jsonStr = CustomPaging.Instance.P_CustomPaging(pageModel);&#xD;
+&#xD;
+HttpContext.Current.Response.Write(jsonStr);&#xD;
+HttpContext.Current.Response.End();</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=026911FC2AEE0F408F61FD218B7EEAE2/Field/=queryClass/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=026911FC2AEE0F408F61FD218B7EEAE2/Field/=queryClass/Order/@EntryValue">1</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=026911FC2AEE0F408F61FD218B7EEAE2/Field/=SYSUSER/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=026911FC2AEE0F408F61FD218B7EEAE2/Field/=SYSUSER/Order/@EntryValue">0</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=026911FC2AEE0F408F61FD218B7EEAE2/Scope/=C3001E7C0DA78E4487072B7E050D86C5/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=026911FC2AEE0F408F61FD218B7EEAE2/Scope/=C3001E7C0DA78E4487072B7E050D86C5/CustomProperties/=minimumLanguageVersion/@EntryIndexedValue">2.0</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=026911FC2AEE0F408F61FD218B7EEAE2/Scope/=C3001E7C0DA78E4487072B7E050D86C5/Type/@EntryValue">InCSharpFile</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=20C5EEE910B1144EB44FC32F7F525C0F/@KeyIndexDefined">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=20C5EEE910B1144EB44FC32F7F525C0F/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=20C5EEE910B1144EB44FC32F7F525C0F/Categories/=yuwh/@EntryIndexedValue">yuwh</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=20C5EEE910B1144EB44FC32F7F525C0F/Field/=dm/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=20C5EEE910B1144EB44FC32F7F525C0F/Field/=dm/Order/@EntryValue">1</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=20C5EEE910B1144EB44FC32F7F525C0F/Field/=mc/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=20C5EEE910B1144EB44FC32F7F525C0F/Field/=mc/Order/@EntryValue">2</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=20C5EEE910B1144EB44FC32F7F525C0F/Field/=name/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=20C5EEE910B1144EB44FC32F7F525C0F/Field/=name/Order/@EntryValue">0</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=20C5EEE910B1144EB44FC32F7F525C0F/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=20C5EEE910B1144EB44FC32F7F525C0F/Scope/=82F6FA20DDF804468BB3BD2973FF7AE3/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=20C5EEE910B1144EB44FC32F7F525C0F/Scope/=82F6FA20DDF804468BB3BD2973FF7AE3/Type/@EntryValue">InAspFile</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=20C5EEE910B1144EB44FC32F7F525C0F/Scope/=C3004821E38B4A4AB76DD479CAD6C59A/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=20C5EEE910B1144EB44FC32F7F525C0F/Scope/=C3004821E38B4A4AB76DD479CAD6C59A/Type/@EntryValue">InHtmlFile</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=20C5EEE910B1144EB44FC32F7F525C0F/Shortcut/@EntryValue">hrp_getgrid</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=20C5EEE910B1144EB44FC32F7F525C0F/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=20C5EEE910B1144EB44FC32F7F525C0F/Text/@EntryValue">&lt;div class="wholeItem "&gt;&#xD;
+    &lt;div class="name-label"&gt;$name$：&lt;/div&gt;&#xD;
+    &lt;asp:Textbox ID="fm_$mc$" runat="server" onkeydown="showSelectedWin('$dm$','fm_$mc$','fm_$dm$')"&#xD;
+                        onclick="showSelectedWin('$dm$', 'fm_$mc$', 'fm_$dm$')" CssClass="dyntxt" &#xD;
+        style="width:136px" readonly="true"&gt;&lt;/asp:Textbox&gt;&#xD;
+    &lt;asp:Textbox ID="fm_$dm$" runat="server" class="am-hide" readonly="true"&gt;&lt;/asp:Textbox&gt;&#xD;
+    &lt;script type="text/javascript"&gt;dyntxt('fm_$mc$')&lt;/script&gt;&#xD;
+&lt;/div&gt;</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2BAA5E053046384AA40E98A15EDE3306/@KeyIndexDefined">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2BAA5E053046384AA40E98A15EDE3306/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2BAA5E053046384AA40E98A15EDE3306/Categories/=yuwh/@EntryIndexedValue">yuwh</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2BAA5E053046384AA40E98A15EDE3306/Description/@EntryValue">ywh</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2BAA5E053046384AA40E98A15EDE3306/Reformat/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2BAA5E053046384AA40E98A15EDE3306/Shortcut/@EntryValue">testing</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2BAA5E053046384AA40E98A15EDE3306/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2BAA5E053046384AA40E98A15EDE3306/Text/@EntryValue">//TODO: [yuwh] 测试中,测试完成后请移除!</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2BAA5E053046384AA40E98A15EDE3306/Scope/=139FF4CE89E7094686FDA7BF5FFBBE92/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2BAA5E053046384AA40E98A15EDE3306/Scope/=139FF4CE89E7094686FDA7BF5FFBBE92/Type/@EntryValue">Everywhere</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=31C05F55A30EF44C9C1BD105B677ABC2/@KeyIndexDefined">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=31C05F55A30EF44C9C1BD105B677ABC2/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=31C05F55A30EF44C9C1BD105B677ABC2/Categories/=yuwh/@EntryIndexedValue">yuwh</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=31C05F55A30EF44C9C1BD105B677ABC2/Description/@EntryValue">hrp_medibtn</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=31C05F55A30EF44C9C1BD105B677ABC2/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=31C05F55A30EF44C9C1BD105B677ABC2/Scope/=82F6FA20DDF804468BB3BD2973FF7AE3/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=31C05F55A30EF44C9C1BD105B677ABC2/Scope/=82F6FA20DDF804468BB3BD2973FF7AE3/Type/@EntryValue">InAspFile</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=31C05F55A30EF44C9C1BD105B677ABC2/Scope/=C3004821E38B4A4AB76DD479CAD6C59A/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=31C05F55A30EF44C9C1BD105B677ABC2/Scope/=C3004821E38B4A4AB76DD479CAD6C59A/Type/@EntryValue">InHtmlFile</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=31C05F55A30EF44C9C1BD105B677ABC2/Shortcut/@EntryValue">hrp_medibtn</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=31C05F55A30EF44C9C1BD105B677ABC2/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=31C05F55A30EF44C9C1BD105B677ABC2/Text/@EntryValue">&lt;div class="wholeItem" style="width: 100%; height: 100%; text-align: right; padding-right: 25px;padding-top: 60px"&gt;&#xD;
+    &lt;hrp:MediButton ID="btn_print" runat="server" Icon="icon-print" CssClass="msg-l-btn"&#xD;
+                    OnClientClick="btn_print()" Text="打印"/&gt;&#xD;
+    &lt;hrp:MediButton ID="btn_save" runat="server" Icon="icon-save" CssClass="msg-l-btn"&#xD;
+                    OnClientClick="btn_save()" Text="保存"/&gt;&#xD;
+    &lt;hrp:MediButton ID="brn_cancel" runat="server" Icon="icon-cancel" CssClass="msg-l-btn"&#xD;
+                    OnClientClick="brn_cancel()" Text="取消"/&gt;&#xD;
+&lt;/div&gt;</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=3E716C7A6FE76047A6B1A061DCB5F0EF/@KeyIndexDefined">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=3E716C7A6FE76047A6B1A061DCB5F0EF/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=3E716C7A6FE76047A6B1A061DCB5F0EF/Categories/=yuwh/@EntryIndexedValue">yuwh</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=3E716C7A6FE76047A6B1A061DCB5F0EF/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=3E716C7A6FE76047A6B1A061DCB5F0EF/Scope/=FFA15E6CFCBE90499C572A859225B012/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=3E716C7A6FE76047A6B1A061DCB5F0EF/Scope/=FFA15E6CFCBE90499C572A859225B012/CustomProperties/=availableInTypeScript/@EntryIndexedValue">True</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=3E716C7A6FE76047A6B1A061DCB5F0EF/Scope/=FFA15E6CFCBE90499C572A859225B012/Type/@EntryValue">InJavaScriptFile</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=3E716C7A6FE76047A6B1A061DCB5F0EF/Shortcut/@EntryValue">hrp_showSelectedWin</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=3E716C7A6FE76047A6B1A061DCB5F0EF/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=3E716C7A6FE76047A6B1A061DCB5F0EF/Text/@EntryValue">var sel_wzlx = "29";&#xD;
+var sel_kfdm = "";&#xD;
+var xtxh = GetQueryString("gnxh").substr(0, 3);&#xD;
+var xh = GetQueryString("xh");&#xD;
+/*&#xD;
+    公用方法&#xD;
+*/&#xD;
+//弹出选择框&#xD;
+function showSelectedWin(type, sourceID, taregetID) {&#xD;
+    getgrid(&#xD;
+        '../common/AjaxCom.ashx?action=' + type + "&amp;xtxh=" + xtxh + "&amp;selval=" +&#xD;
+        encodeURIComponent($("#" + sourceID).val()) + "&amp;kfdm=" + sel_kfdm,&#xD;
+        "ShowWinSeleted('" + type + "','" + sourceID + " ','" + taregetID + "');",&#xD;
+        300,&#xD;
+        250);&#xD;
+}&#xD;
+&#xD;
+function ShowWinSeleted(type, sourceID, taregetID) {&#xD;
+    if ($("#" + sourceID)[0].retValues) {&#xD;
+        if (type == "wz") {&#xD;
+            $("#" + sourceID).val($("#" + sourceID)[0].retValues[2]);&#xD;
+            $("#" + taregetID).val($("#" + sourceID)[0].retValues[0]);&#xD;
+        } else {&#xD;
+            $("#" + sourceID).val($("#" + sourceID)[0].retValues[1]);&#xD;
+            $("#" + taregetID).val($("#" + sourceID)[0].retValues[0]);&#xD;
+        }&#xD;
+    }&#xD;
+}</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=41FF525BF5294144AE7C4965343906DB/@KeyIndexDefined">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=41FF525BF5294144AE7C4965343906DB/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=41FF525BF5294144AE7C4965343906DB/Categories/=yuwh/@EntryIndexedValue">yuwh</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=41FF525BF5294144AE7C4965343906DB/Field/=id/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=41FF525BF5294144AE7C4965343906DB/Field/=id/Order/@EntryValue">1</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=41FF525BF5294144AE7C4965343906DB/Field/=name/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=41FF525BF5294144AE7C4965343906DB/Field/=name/Order/@EntryValue">0</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=41FF525BF5294144AE7C4965343906DB/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=41FF525BF5294144AE7C4965343906DB/Scope/=82F6FA20DDF804468BB3BD2973FF7AE3/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=41FF525BF5294144AE7C4965343906DB/Scope/=82F6FA20DDF804468BB3BD2973FF7AE3/Type/@EntryValue">InAspFile</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=41FF525BF5294144AE7C4965343906DB/Scope/=C3004821E38B4A4AB76DD479CAD6C59A/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=41FF525BF5294144AE7C4965343906DB/Scope/=C3004821E38B4A4AB76DD479CAD6C59A/Type/@EntryValue">InHtmlFile</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=41FF525BF5294144AE7C4965343906DB/Shortcut/@EntryValue">hrp_date</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=41FF525BF5294144AE7C4965343906DB/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=41FF525BF5294144AE7C4965343906DB/Text/@EntryValue">&lt;div class="wholeItem"&gt;&#xD;
+    &lt;div class="name-label"&gt;$name$：&lt;/div&gt;&#xD;
+    &lt;asp:TextBox ID="fm_$id$" runat="server" Width="160px" class="Wdate" onclick="WdatePicker({dateFmt:'yyyy-MM-dd'})"&gt;&lt;/asp:TextBox&gt;&#xD;
+&lt;/div&gt;</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=44834C149702724598465709268775B8/@KeyIndexDefined">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=44834C149702724598465709268775B8/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=44834C149702724598465709268775B8/Categories/=yuwh/@EntryIndexedValue">yuwh</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=44834C149702724598465709268775B8/Field/=id/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=44834C149702724598465709268775B8/Field/=id/Order/@EntryValue">1</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=44834C149702724598465709268775B8/Field/=name/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=44834C149702724598465709268775B8/Field/=name/Order/@EntryValue">0</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=44834C149702724598465709268775B8/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=44834C149702724598465709268775B8/Scope/=82F6FA20DDF804468BB3BD2973FF7AE3/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=44834C149702724598465709268775B8/Scope/=82F6FA20DDF804468BB3BD2973FF7AE3/Type/@EntryValue">InAspFile</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=44834C149702724598465709268775B8/Scope/=C3004821E38B4A4AB76DD479CAD6C59A/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=44834C149702724598465709268775B8/Scope/=C3004821E38B4A4AB76DD479CAD6C59A/Type/@EntryValue">InHtmlFile</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=44834C149702724598465709268775B8/Shortcut/@EntryValue">hrp_dropdownlist</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=44834C149702724598465709268775B8/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=44834C149702724598465709268775B8/Text/@EntryValue">&lt;div class="wholeItem"&gt;&#xD;
+    &lt;div class="name-label"&gt;$name$：&lt;/div&gt;&#xD;
+    &lt;telerik:RadDropDownList runat="server" ID="fm_$id$" Width="160px"&gt;&#xD;
+        &lt;Items&gt;&#xD;
+            &lt;telerik:DropDownListItem runat="server" Value="" Text="全部" Selected="True"/&gt;&#xD;
+            &lt;telerik:DropDownListItem runat="server" Value="0" Text="停用"/&gt;&#xD;
+            &lt;telerik:DropDownListItem runat="server" Value="1" Text="启用"/&gt;&#xD;
+        &lt;/Items&gt;&#xD;
+    &lt;/telerik:RadDropDownList&gt;&#xD;
+&lt;/div&gt;</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=46110F70D6DB694EB370402948473F9D/@KeyIndexDefined">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=46110F70D6DB694EB370402948473F9D/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=46110F70D6DB694EB370402948473F9D/Categories/=nf_005Fhrp/@EntryIndexedValue">nf_hrp</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=46110F70D6DB694EB370402948473F9D/Description/@EntryValue">开始日期-结束日期</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=46110F70D6DB694EB370402948473F9D/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=46110F70D6DB694EB370402948473F9D/Scope/=C3001E7C0DA78E4487072B7E050D86C5/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=46110F70D6DB694EB370402948473F9D/Scope/=C3001E7C0DA78E4487072B7E050D86C5/CustomProperties/=minimumLanguageVersion/@EntryIndexedValue">2.0</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=46110F70D6DB694EB370402948473F9D/Scope/=C3001E7C0DA78E4487072B7E050D86C5/Type/@EntryValue">InCSharpFile</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=46110F70D6DB694EB370402948473F9D/Shortcut/@EntryValue">hrp_date_between</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=46110F70D6DB694EB370402948473F9D/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=46110F70D6DB694EB370402948473F9D/Text/@EntryValue">sql += SysComm.IsNullOrEmpty(kssj) ? "" : " and a.CREATEDATE&gt;=to_date('" + kssj + " 00:00:00', 'yyyy-mm-dd hh24:mi:ss')";&#xD;
+sql += SysComm.IsNullOrEmpty(jssj) ? "" : " and a.CREATEDATE&lt;=to_date('" + jssj + " 23:59:59', 'yyyy-mm-dd hh24:mi:ss')";</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=4655477DF92C9D478F7D6631FD32EA21/@KeyIndexDefined">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=4655477DF92C9D478F7D6631FD32EA21/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=4655477DF92C9D478F7D6631FD32EA21/Categories/=nf_005Fhrp/@EntryIndexedValue">nf_hrp</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=4655477DF92C9D478F7D6631FD32EA21/Description/@EntryValue">hrp_bindObject</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=4655477DF92C9D478F7D6631FD32EA21/Field/=Class/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=4655477DF92C9D478F7D6631FD32EA21/Field/=Class/Order/@EntryValue">1</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=4655477DF92C9D478F7D6631FD32EA21/Field/=dt/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=4655477DF92C9D478F7D6631FD32EA21/Field/=dt/Order/@EntryValue">3</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=4655477DF92C9D478F7D6631FD32EA21/Field/=name/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=4655477DF92C9D478F7D6631FD32EA21/Field/=name/Order/@EntryValue">2</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=4655477DF92C9D478F7D6631FD32EA21/Field/=xh/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=4655477DF92C9D478F7D6631FD32EA21/Field/=xh/Order/@EntryValue">0</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=4655477DF92C9D478F7D6631FD32EA21/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=4655477DF92C9D478F7D6631FD32EA21/Scope/=C3001E7C0DA78E4487072B7E050D86C5/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=4655477DF92C9D478F7D6631FD32EA21/Scope/=C3001E7C0DA78E4487072B7E050D86C5/CustomProperties/=minimumLanguageVersion/@EntryIndexedValue">2.0</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=4655477DF92C9D478F7D6631FD32EA21/Scope/=C3001E7C0DA78E4487072B7E050D86C5/Type/@EntryValue">InCSharpFile</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=4655477DF92C9D478F7D6631FD32EA21/Shortcut/@EntryValue">hrp_bindObject</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=4655477DF92C9D478F7D6631FD32EA21/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=4655477DF92C9D478F7D6631FD32EA21/Text/@EntryValue">if (!SysComm.IsNullOrEmpty($xh$))&#xD;
+{&#xD;
+    $Class$ $name$=new $Class$($xh$);&#xD;
+    DataTable $dt$ = dbbase.getDataTable($name$.LoadString());&#xD;
+    if (!SysComm.IsNullOrEmpty($dt$))&#xD;
+    {&#xD;
+        FormBase.BindDatatableToObject($dt$,$name$);&#xD;
+    }&#xD;
+}</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=4E1CA9562D104B4F9AB3A6968D2960A9/@KeyIndexDefined">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=4E1CA9562D104B4F9AB3A6968D2960A9/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=4E1CA9562D104B4F9AB3A6968D2960A9/Categories/=yuwh/@EntryIndexedValue">yuwh</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=4E1CA9562D104B4F9AB3A6968D2960A9/Description/@EntryValue">console.log</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=4E1CA9562D104B4F9AB3A6968D2960A9/Field/=name/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=4E1CA9562D104B4F9AB3A6968D2960A9/Field/=name/Order/@EntryValue">0</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=4E1CA9562D104B4F9AB3A6968D2960A9/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=4E1CA9562D104B4F9AB3A6968D2960A9/Scope/=FFA15E6CFCBE90499C572A859225B012/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=4E1CA9562D104B4F9AB3A6968D2960A9/Scope/=FFA15E6CFCBE90499C572A859225B012/CustomProperties/=availableInTypeScript/@EntryIndexedValue">True</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=4E1CA9562D104B4F9AB3A6968D2960A9/Scope/=FFA15E6CFCBE90499C572A859225B012/Type/@EntryValue">InJavaScriptFile</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=4E1CA9562D104B4F9AB3A6968D2960A9/Shortcut/@EntryValue">cl</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=4E1CA9562D104B4F9AB3A6968D2960A9/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=4E1CA9562D104B4F9AB3A6968D2960A9/Text/@EntryValue">console.log($name$);</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=5E7D54678FD65A408EB90A56326A7C8D/@KeyIndexDefined">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=5E7D54678FD65A408EB90A56326A7C8D/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=5E7D54678FD65A408EB90A56326A7C8D/Categories/=yuwh/@EntryIndexedValue">yuwh</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=5E7D54678FD65A408EB90A56326A7C8D/Description/@EntryValue">作者信息</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=5E7D54678FD65A408EB90A56326A7C8D/Field/=2017/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=5E7D54678FD65A408EB90A56326A7C8D/Field/=2017/Expression/@EntryValue">getCurrentTime("yyyy-MM-dd hh:mm:ss")</s:String>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=5E7D54678FD65A408EB90A56326A7C8D/Field/=2017/InitialRange/@EntryValue">-1</s:Int64>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=5E7D54678FD65A408EB90A56326A7C8D/Field/=2017/Order/@EntryValue">0</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=5E7D54678FD65A408EB90A56326A7C8D/Field/=aspx/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=5E7D54678FD65A408EB90A56326A7C8D/Field/=aspx/Expression/@EntryValue">getFileName()</s:String>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=5E7D54678FD65A408EB90A56326A7C8D/Field/=aspx/InitialRange/@EntryValue">-1</s:Int64>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=5E7D54678FD65A408EB90A56326A7C8D/Field/=aspx/Order/@EntryValue">1</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=5E7D54678FD65A408EB90A56326A7C8D/Field/=HRP/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=5E7D54678FD65A408EB90A56326A7C8D/Field/=HRP/Expression/@EntryValue">getSolutionName()</s:String>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=5E7D54678FD65A408EB90A56326A7C8D/Field/=HRP/InitialRange/@EntryValue">-1</s:Int64>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=5E7D54678FD65A408EB90A56326A7C8D/Field/=HRP/Order/@EntryValue">2</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=5E7D54678FD65A408EB90A56326A7C8D/Field/=_9875_9762_540D_79F0/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=5E7D54678FD65A408EB90A56326A7C8D/Field/=_9875_9762_540D_79F0/Order/@EntryValue">3</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=5E7D54678FD65A408EB90A56326A7C8D/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=5E7D54678FD65A408EB90A56326A7C8D/Scope/=C3001E7C0DA78E4487072B7E050D86C5/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=5E7D54678FD65A408EB90A56326A7C8D/Scope/=C3001E7C0DA78E4487072B7E050D86C5/CustomProperties/=minimumLanguageVersion/@EntryIndexedValue">2.0</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=5E7D54678FD65A408EB90A56326A7C8D/Scope/=C3001E7C0DA78E4487072B7E050D86C5/Type/@EntryValue">InCSharpFile</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=5E7D54678FD65A408EB90A56326A7C8D/Shortcut/@EntryValue">author</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=5E7D54678FD65A408EB90A56326A7C8D/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=5E7D54678FD65A408EB90A56326A7C8D/Text/@EntryValue">/// &lt;summary&gt;&#xD;
+/// 作者: 于文辉&#xD;
+/// 创建日期: $2017$&#xD;
+/// 名称: $页面名称$&#xD;
+/// 文件: $aspx$&#xD;
+/// 备注: $HRP$&#xD;
+/// &lt;/summary&gt;</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=5FD9BB4CBA0F514DBE41833996D9FB87/@KeyIndexDefined">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=5FD9BB4CBA0F514DBE41833996D9FB87/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=5FD9BB4CBA0F514DBE41833996D9FB87/Categories/=yuwh/@EntryIndexedValue">yuwh</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=5FD9BB4CBA0F514DBE41833996D9FB87/Description/@EntryValue">hrp_jqgrid</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=5FD9BB4CBA0F514DBE41833996D9FB87/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=5FD9BB4CBA0F514DBE41833996D9FB87/Scope/=82F6FA20DDF804468BB3BD2973FF7AE3/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=5FD9BB4CBA0F514DBE41833996D9FB87/Scope/=82F6FA20DDF804468BB3BD2973FF7AE3/Type/@EntryValue">InAspFile</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=5FD9BB4CBA0F514DBE41833996D9FB87/Shortcut/@EntryValue">hrp_jqgrid_hrpgrid</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=5FD9BB4CBA0F514DBE41833996D9FB87/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=5FD9BB4CBA0F514DBE41833996D9FB87/Text/@EntryValue">&lt;hrp:JQGrid ID="HrpGrid" runat="server" Width="$(window).width()-5" Height="$(window).height()-143"&#xD;
+            MType="post" EditUrl="clientArray" DataType="local" MultiSelect="false"&gt;&#xD;
+    &lt;AppearanceSettings ShowRowNumbers="true" ShrinkToFit="false"/&gt;&#xD;
+    &lt;PagerSettings AllowPaging="true"/&gt;&#xD;
+    &lt;ClientSideEvents /&gt;&#xD;
+&lt;/hrp:JQGrid&gt;</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=61F5839230A41848A3EBEE143556C3EA/@KeyIndexDefined">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=61F5839230A41848A3EBEE143556C3EA/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=61F5839230A41848A3EBEE143556C3EA/Categories/=yuwh/@EntryIndexedValue">yuwh</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=61F5839230A41848A3EBEE143556C3EA/Description/@EntryValue">请求ajax</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=61F5839230A41848A3EBEE143556C3EA/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=61F5839230A41848A3EBEE143556C3EA/Scope/=FFA15E6CFCBE90499C572A859225B012/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=61F5839230A41848A3EBEE143556C3EA/Scope/=FFA15E6CFCBE90499C572A859225B012/CustomProperties/=availableInTypeScript/@EntryIndexedValue">True</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=61F5839230A41848A3EBEE143556C3EA/Scope/=FFA15E6CFCBE90499C572A859225B012/Type/@EntryValue">InJavaScriptFile</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=61F5839230A41848A3EBEE143556C3EA/Shortcut/@EntryValue">hrp_ShowRequestAjaxData</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=61F5839230A41848A3EBEE143556C3EA/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=61F5839230A41848A3EBEE143556C3EA/Text/@EntryValue">var loadUrl = "kskf_tkd.aspx?action=saveData";&#xD;
+ShowRequestAjaxData(loadUrl,&#xD;
+    {&#xD;
+        "xh": $('#fm_xh').val(),&#xD;
+        "mxjson": JSON.stringify($("#HrpGrid").jqGrid("getRowData"))&#xD;
+    },&#xD;
+    "保存",&#xD;
+    function(res) {&#xD;
+        alert(res.data);&#xD;
+    },&#xD;
+    true,&#xD;
+    false,&#xD;
+    false,&#xD;
+    function(res) {}&#xD;
+);</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=69F33470BBC5F04C9D34BEEA3166A65D/@KeyIndexDefined">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=69F33470BBC5F04C9D34BEEA3166A65D/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=69F33470BBC5F04C9D34BEEA3166A65D/Description/@EntryValue">hrp_checkPAIID</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=69F33470BBC5F04C9D34BEEA3166A65D/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=69F33470BBC5F04C9D34BEEA3166A65D/Scope/=FFA15E6CFCBE90499C572A859225B012/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=69F33470BBC5F04C9D34BEEA3166A65D/Scope/=FFA15E6CFCBE90499C572A859225B012/CustomProperties/=availableInTypeScript/@EntryIndexedValue">True</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=69F33470BBC5F04C9D34BEEA3166A65D/Scope/=FFA15E6CFCBE90499C572A859225B012/Type/@EntryValue">InJavaScriptFile</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=69F33470BBC5F04C9D34BEEA3166A65D/Shortcut/@EntryValue">hrp_checkPAIID</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=69F33470BBC5F04C9D34BEEA3166A65D/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=69F33470BBC5F04C9D34BEEA3166A65D/Text/@EntryValue">var xh = $("#HrpGrid").jqGrid("getRowData", lastselIndex).PAIID;&#xD;
+if (xh == "" || xh == undefined) {&#xD;
+    showmsgbox("请选择检定信息！", "error");&#xD;
+    return;&#xD;
+}</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=81CE674977984C4B96CECBE6F85BDBF7/@KeyIndexDefined">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=81CE674977984C4B96CECBE6F85BDBF7/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=81CE674977984C4B96CECBE6F85BDBF7/Categories/=yuwh/@EntryIndexedValue">yuwh</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=81CE674977984C4B96CECBE6F85BDBF7/Description/@EntryValue">设置todo</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=81CE674977984C4B96CECBE6F85BDBF7/Field/=_529F_80FD_5F00_53D1_4E2D/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=81CE674977984C4B96CECBE6F85BDBF7/Field/=_529F_80FD_5F00_53D1_4E2D/Order/@EntryValue">0</s:Int64>
+	
+	
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=81CE674977984C4B96CECBE6F85BDBF7/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=81CE674977984C4B96CECBE6F85BDBF7/Scope/=4B37B5D594083A4BB9DEB0E10E61D85E/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=81CE674977984C4B96CECBE6F85BDBF7/Scope/=4B37B5D594083A4BB9DEB0E10E61D85E/Type/@EntryValue">InCssFile</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=81CE674977984C4B96CECBE6F85BDBF7/Scope/=5A0CCA3880C9804BAC3D41971816B786/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=81CE674977984C4B96CECBE6F85BDBF7/Scope/=5A0CCA3880C9804BAC3D41971816B786/CustomProperties/=availableInTypeScript/@EntryIndexedValue">True</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=81CE674977984C4B96CECBE6F85BDBF7/Scope/=5A0CCA3880C9804BAC3D41971816B786/Type/@EntryValue">InTypeScriptFile</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=81CE674977984C4B96CECBE6F85BDBF7/Scope/=82F6FA20DDF804468BB3BD2973FF7AE3/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=81CE674977984C4B96CECBE6F85BDBF7/Scope/=82F6FA20DDF804468BB3BD2973FF7AE3/Type/@EntryValue">InAspFile</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=81CE674977984C4B96CECBE6F85BDBF7/Scope/=A14108D8199BD94191FC02A2809F1F3D/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=81CE674977984C4B96CECBE6F85BDBF7/Scope/=A14108D8199BD94191FC02A2809F1F3D/Type/@EntryValue">InHtmlLikeFile</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=81CE674977984C4B96CECBE6F85BDBF7/Scope/=AD41E18405A7FF4682F040638EE2663C/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=81CE674977984C4B96CECBE6F85BDBF7/Scope/=AD41E18405A7FF4682F040638EE2663C/Type/@EntryValue">InXmlFile</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=81CE674977984C4B96CECBE6F85BDBF7/Scope/=C3001E7C0DA78E4487072B7E050D86C5/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=81CE674977984C4B96CECBE6F85BDBF7/Scope/=C3001E7C0DA78E4487072B7E050D86C5/CustomProperties/=minimumLanguageVersion/@EntryIndexedValue">2.0</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=81CE674977984C4B96CECBE6F85BDBF7/Scope/=C3001E7C0DA78E4487072B7E050D86C5/Type/@EntryValue">InCSharpFile</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=81CE674977984C4B96CECBE6F85BDBF7/Scope/=C3004821E38B4A4AB76DD479CAD6C59A/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=81CE674977984C4B96CECBE6F85BDBF7/Scope/=C3004821E38B4A4AB76DD479CAD6C59A/Type/@EntryValue">InHtmlFile</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=81CE674977984C4B96CECBE6F85BDBF7/Scope/=FFA15E6CFCBE90499C572A859225B012/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=81CE674977984C4B96CECBE6F85BDBF7/Scope/=FFA15E6CFCBE90499C572A859225B012/CustomProperties/=availableInTypeScript/@EntryIndexedValue">True</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=81CE674977984C4B96CECBE6F85BDBF7/Scope/=FFA15E6CFCBE90499C572A859225B012/Type/@EntryValue">InJavaScriptFile</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=81CE674977984C4B96CECBE6F85BDBF7/Shortcut/@EntryValue">todo</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=81CE674977984C4B96CECBE6F85BDBF7/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=81CE674977984C4B96CECBE6F85BDBF7/Text/@EntryValue">//TODO: [yuwh] $功能开发中$</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=931D80AA7A930643BFD49F074E9D53B7/@KeyIndexDefined">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=931D80AA7A930643BFD49F074E9D53B7/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=931D80AA7A930643BFD49F074E9D53B7/Categories/=yuwh/@EntryIndexedValue">yuwh</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=931D80AA7A930643BFD49F074E9D53B7/Description/@EntryValue">hrp文本框</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=931D80AA7A930643BFD49F074E9D53B7/Field/=160px/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=931D80AA7A930643BFD49F074E9D53B7/Field/=160px/Order/@EntryValue">2</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=931D80AA7A930643BFD49F074E9D53B7/Field/=id/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=931D80AA7A930643BFD49F074E9D53B7/Field/=id/Order/@EntryValue">1</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=931D80AA7A930643BFD49F074E9D53B7/Field/=name/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=931D80AA7A930643BFD49F074E9D53B7/Field/=name/Order/@EntryValue">0</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=931D80AA7A930643BFD49F074E9D53B7/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=931D80AA7A930643BFD49F074E9D53B7/Scope/=82F6FA20DDF804468BB3BD2973FF7AE3/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=931D80AA7A930643BFD49F074E9D53B7/Scope/=82F6FA20DDF804468BB3BD2973FF7AE3/Type/@EntryValue">InAspFile</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=931D80AA7A930643BFD49F074E9D53B7/Scope/=C3004821E38B4A4AB76DD479CAD6C59A/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=931D80AA7A930643BFD49F074E9D53B7/Scope/=C3004821E38B4A4AB76DD479CAD6C59A/Type/@EntryValue">InHtmlFile</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=931D80AA7A930643BFD49F074E9D53B7/Shortcut/@EntryValue">hrpc_textbox</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=931D80AA7A930643BFD49F074E9D53B7/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=931D80AA7A930643BFD49F074E9D53B7/Text/@EntryValue">&lt;span class="t_items"&gt;&#xD;
+    &lt;label&gt;$name$：&lt;/label&gt;&#xD;
+    &lt;asp:TextBox ID="txt_$id$" runat="server" style="width: $160px$" placeholder="$name$"&gt;&lt;/asp:TextBox&gt;&#xD;
+&lt;/span&gt;</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=94C359ED1BD1174C8BAE468A2E4AC6E2/@KeyIndexDefined">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=94C359ED1BD1174C8BAE468A2E4AC6E2/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=94C359ED1BD1174C8BAE468A2E4AC6E2/Categories/=yuwh/@EntryIndexedValue">yuwh</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=94C359ED1BD1174C8BAE468A2E4AC6E2/Description/@EntryValue">hrp_jqgrid_example</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=94C359ED1BD1174C8BAE468A2E4AC6E2/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=94C359ED1BD1174C8BAE468A2E4AC6E2/Scope/=FFA15E6CFCBE90499C572A859225B012/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=94C359ED1BD1174C8BAE468A2E4AC6E2/Scope/=FFA15E6CFCBE90499C572A859225B012/CustomProperties/=availableInTypeScript/@EntryIndexedValue">True</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=94C359ED1BD1174C8BAE468A2E4AC6E2/Scope/=FFA15E6CFCBE90499C572A859225B012/Type/@EntryValue">InJavaScriptFile</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=94C359ED1BD1174C8BAE468A2E4AC6E2/Shortcut/@EntryValue">hrp_jqgrid_example</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=94C359ED1BD1174C8BAE468A2E4AC6E2/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=94C359ED1BD1174C8BAE468A2E4AC6E2/Text/@EntryValue">var gridIds = $('#HrpGrid').jqGrid('getDataIDs');&#xD;
+for (var i = 0; i &lt; gridIds.length; i++) {&#xD;
+    var arr=$("#HrpGrid").getGridParam("selarrrow");&#xD;
+    var gridObj = $('#HrpGrid').jqGrid('getRowData', gridIds[i]);&#xD;
+    $('#HrpGrid').jqGrid("delRowData", gridIds[i]);&#xD;
+    $('#HrpGrid').jqGrid("saveRowData", gridIds[i]);&#xD;
+    $('#HrpGrid').jqGrid("setRowData", gridIds[i], { "XH": 0 });&#xD;
+    $("#HrpGrid").setSelection(gridIds[i]);&#xD;
+    GetGridColVal(gridObj, "XH");&#xD;
+}</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=A55DAD1841F9EA4BAA4FD13368EB1E3D/@KeyIndexDefined">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=A55DAD1841F9EA4BAA4FD13368EB1E3D/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=A55DAD1841F9EA4BAA4FD13368EB1E3D/Categories/=yuwh/@EntryIndexedValue">yuwh</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=A55DAD1841F9EA4BAA4FD13368EB1E3D/Description/@EntryValue">hrp按钮</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=A55DAD1841F9EA4BAA4FD13368EB1E3D/Field/=add/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=A55DAD1841F9EA4BAA4FD13368EB1E3D/Field/=add/Order/@EntryValue">0</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=A55DAD1841F9EA4BAA4FD13368EB1E3D/Field/=edit/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=A55DAD1841F9EA4BAA4FD13368EB1E3D/Field/=edit/Order/@EntryValue">1</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=A55DAD1841F9EA4BAA4FD13368EB1E3D/Field/=TEXT/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=A55DAD1841F9EA4BAA4FD13368EB1E3D/Field/=TEXT/Order/@EntryValue">2</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=A55DAD1841F9EA4BAA4FD13368EB1E3D/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=A55DAD1841F9EA4BAA4FD13368EB1E3D/Scope/=82F6FA20DDF804468BB3BD2973FF7AE3/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=A55DAD1841F9EA4BAA4FD13368EB1E3D/Scope/=82F6FA20DDF804468BB3BD2973FF7AE3/Type/@EntryValue">InAspFile</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=A55DAD1841F9EA4BAA4FD13368EB1E3D/Scope/=C3004821E38B4A4AB76DD479CAD6C59A/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=A55DAD1841F9EA4BAA4FD13368EB1E3D/Scope/=C3004821E38B4A4AB76DD479CAD6C59A/Type/@EntryValue">InHtmlFile</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=A55DAD1841F9EA4BAA4FD13368EB1E3D/Shortcut/@EntryValue">hrpc_button</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=A55DAD1841F9EA4BAA4FD13368EB1E3D/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=A55DAD1841F9EA4BAA4FD13368EB1E3D/Text/@EntryValue">&lt;hrp:MediButton ID="btn_$add$" runat="server" Icon="icon-$edit$" CssClass="msg-l-btn"&#xD;
+        OnClientClick="btn_$add$()" Text="$TEXT$"/&gt;</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=AD3BA3345F375C4F95B255F9CC5C149D/@KeyIndexDefined">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=AD3BA3345F375C4F95B255F9CC5C149D/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=AD3BA3345F375C4F95B255F9CC5C149D/Categories/=yuwh/@EntryIndexedValue">yuwh</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=AD3BA3345F375C4F95B255F9CC5C149D/Description/@EntryValue">hrp_base_style</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=AD3BA3345F375C4F95B255F9CC5C149D/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=AD3BA3345F375C4F95B255F9CC5C149D/Scope/=82F6FA20DDF804468BB3BD2973FF7AE3/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=AD3BA3345F375C4F95B255F9CC5C149D/Scope/=82F6FA20DDF804468BB3BD2973FF7AE3/Type/@EntryValue">InAspFile</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=AD3BA3345F375C4F95B255F9CC5C149D/Scope/=C3004821E38B4A4AB76DD479CAD6C59A/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=AD3BA3345F375C4F95B255F9CC5C149D/Scope/=C3004821E38B4A4AB76DD479CAD6C59A/Type/@EntryValue">InHtmlFile</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=AD3BA3345F375C4F95B255F9CC5C149D/Shortcut/@EntryValue">hrp_base_style</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=AD3BA3345F375C4F95B255F9CC5C149D/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=AD3BA3345F375C4F95B255F9CC5C149D/Text/@EntryValue">&lt;style&gt;&#xD;
+    .wholeItem { width: 280px;line-height: 30px; }&#xD;
+    .name-label {&#xD;
+        width: 90px;&#xD;
+        text-align: right;&#xD;
+        display: inline-block;&#xD;
+    }&#xD;
+&lt;/style&gt;</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=ADB17348E925164D91FE3D8FA3DE5BA6/@KeyIndexDefined">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=ADB17348E925164D91FE3D8FA3DE5BA6/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=ADB17348E925164D91FE3D8FA3DE5BA6/Categories/=yuwh/@EntryIndexedValue">yuwh</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=ADB17348E925164D91FE3D8FA3DE5BA6/Description/@EntryValue">hrp多重条件选择</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=ADB17348E925164D91FE3D8FA3DE5BA6/Field/=_5B57_6BB5/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=ADB17348E925164D91FE3D8FA3DE5BA6/Field/=_5B57_6BB5/Order/@EntryValue">0</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=ADB17348E925164D91FE3D8FA3DE5BA6/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=ADB17348E925164D91FE3D8FA3DE5BA6/Scope/=FFA15E6CFCBE90499C572A859225B012/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=ADB17348E925164D91FE3D8FA3DE5BA6/Scope/=FFA15E6CFCBE90499C572A859225B012/CustomProperties/=availableInTypeScript/@EntryIndexedValue">True</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=ADB17348E925164D91FE3D8FA3DE5BA6/Scope/=FFA15E6CFCBE90499C572A859225B012/Type/@EntryValue">InJavaScriptFile</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=ADB17348E925164D91FE3D8FA3DE5BA6/Shortcut/@EntryValue">hrp_selAllColTwice</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=ADB17348E925164D91FE3D8FA3DE5BA6/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=ADB17348E925164D91FE3D8FA3DE5BA6/Text/@EntryValue">var xh = "";&#xD;
+var xh1 = GetSelAllRowColVal('HrpGrid', 'PAIID', ['$字段$'], ['0']);&#xD;
+var xh2 = GetSelAllRowColVal('HrpGrid', 'PAIID', ['$字段$'], ['1']);&#xD;
+xh = xh1 + (xh1 != "" ? ("," + xh2) : xh2);</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=AEDAA08C96E73941A1215FDBB8EAEE2B/@KeyIndexDefined">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=AEDAA08C96E73941A1215FDBB8EAEE2B/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=AEDAA08C96E73941A1215FDBB8EAEE2B/Categories/=yuwh/@EntryIndexedValue">yuwh</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=AEDAA08C96E73941A1215FDBB8EAEE2B/Description/@EntryValue">hrp_textbox</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=AEDAA08C96E73941A1215FDBB8EAEE2B/Field/=id/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=AEDAA08C96E73941A1215FDBB8EAEE2B/Field/=id/Order/@EntryValue">1</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=AEDAA08C96E73941A1215FDBB8EAEE2B/Field/=name/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=AEDAA08C96E73941A1215FDBB8EAEE2B/Field/=name/Order/@EntryValue">0</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=AEDAA08C96E73941A1215FDBB8EAEE2B/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=AEDAA08C96E73941A1215FDBB8EAEE2B/Scope/=82F6FA20DDF804468BB3BD2973FF7AE3/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=AEDAA08C96E73941A1215FDBB8EAEE2B/Scope/=82F6FA20DDF804468BB3BD2973FF7AE3/Type/@EntryValue">InAspFile</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=AEDAA08C96E73941A1215FDBB8EAEE2B/Scope/=C3004821E38B4A4AB76DD479CAD6C59A/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=AEDAA08C96E73941A1215FDBB8EAEE2B/Scope/=C3004821E38B4A4AB76DD479CAD6C59A/Type/@EntryValue">InHtmlFile</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=AEDAA08C96E73941A1215FDBB8EAEE2B/Shortcut/@EntryValue">hrp_textbox</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=AEDAA08C96E73941A1215FDBB8EAEE2B/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=AEDAA08C96E73941A1215FDBB8EAEE2B/Text/@EntryValue">&lt;div class="wholeItem"&gt;&#xD;
+    &lt;div class="name-label"&gt;$name$：&lt;/div&gt;&#xD;
+    &lt;asp:TextBox ID="fm_$id$" runat="server" Width="160px"&gt;&lt;/asp:TextBox&gt;&#xD;
+&lt;/div&gt;</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=B3C5F1460436804ABB49C08289C4E39E/@KeyIndexDefined">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=B3C5F1460436804ABB49C08289C4E39E/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=B3C5F1460436804ABB49C08289C4E39E/Categories/=yuwh/@EntryIndexedValue">yuwh</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=B3C5F1460436804ABB49C08289C4E39E/Description/@EntryValue">开始时间-结束时间</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=B3C5F1460436804ABB49C08289C4E39E/Field/=txt_005Fjssj/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=B3C5F1460436804ABB49C08289C4E39E/Field/=txt_005Fjssj/Order/@EntryValue">1</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=B3C5F1460436804ABB49C08289C4E39E/Field/=txt_005Fkssj/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=B3C5F1460436804ABB49C08289C4E39E/Field/=txt_005Fkssj/Order/@EntryValue">0</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=B3C5F1460436804ABB49C08289C4E39E/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=B3C5F1460436804ABB49C08289C4E39E/Scope/=82F6FA20DDF804468BB3BD2973FF7AE3/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=B3C5F1460436804ABB49C08289C4E39E/Scope/=82F6FA20DDF804468BB3BD2973FF7AE3/Type/@EntryValue">InAspFile</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=B3C5F1460436804ABB49C08289C4E39E/Scope/=C3004821E38B4A4AB76DD479CAD6C59A/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=B3C5F1460436804ABB49C08289C4E39E/Scope/=C3004821E38B4A4AB76DD479CAD6C59A/Type/@EntryValue">InHtmlFile</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=B3C5F1460436804ABB49C08289C4E39E/Shortcut/@EntryValue">hrp_date_between</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=B3C5F1460436804ABB49C08289C4E39E/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=B3C5F1460436804ABB49C08289C4E39E/Text/@EntryValue">制单时间：&lt;asp:TextBox ID="$txt_kssj$" runat="server" class="Wdate" onFocus="var endDate=$dp.$('$txt_jssj$');WdatePicker({onpicked:function(){endDate.focus();},maxDate:'#F{$dp.$D(\'$txt_jssj$\')}'})"&#xD;
+    Width="90px"&gt;&lt;/asp:TextBox&gt;&#xD;
+    至&#xD;
+&lt;asp:TextBox ID="$txt_jssj$" runat="server" class="Wdate" onFocus="WdatePicker({minDate:'#F{$dp.$D(\'$txt_kssj$\')}'})"&#xD;
+    Width="90px"&gt;&lt;/asp:TextBox&gt;</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=B8ED8D8F5449A349838F92305690ACC0/@KeyIndexDefined">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=B8ED8D8F5449A349838F92305690ACC0/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=B8ED8D8F5449A349838F92305690ACC0/Categories/=nf_005Fhrp/@EntryIndexedValue">nf_hrp</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=B8ED8D8F5449A349838F92305690ACC0/Description/@EntryValue">json结果模型</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=B8ED8D8F5449A349838F92305690ACC0/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=B8ED8D8F5449A349838F92305690ACC0/Scope/=C3001E7C0DA78E4487072B7E050D86C5/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=B8ED8D8F5449A349838F92305690ACC0/Scope/=C3001E7C0DA78E4487072B7E050D86C5/CustomProperties/=minimumLanguageVersion/@EntryIndexedValue">2.0</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=B8ED8D8F5449A349838F92305690ACC0/Scope/=C3001E7C0DA78E4487072B7E050D86C5/Type/@EntryValue">InCSharpFile</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=B8ED8D8F5449A349838F92305690ACC0/Shortcut/@EntryValue">hrp_jsonResultModel</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=B8ED8D8F5449A349838F92305690ACC0/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=B8ED8D8F5449A349838F92305690ACC0/Text/@EntryValue">dblayer db = new dblayer();&#xD;
+List&lt;string&gt; sqlList = new List&lt;string&gt;();&#xD;
+&#xD;
+Response.Write(JSONHelper.ObjectToJSON(new JsonResultModel(db.executeSql(sqlList),"","")));&#xD;
+Response.End();</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=BF82A0853AA94248BE359F734D1F0AA4/@KeyIndexDefined">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=BF82A0853AA94248BE359F734D1F0AA4/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=BF82A0853AA94248BE359F734D1F0AA4/Categories/=nf_005Fhrp/@EntryIndexedValue">nf_hrp</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=BF82A0853AA94248BE359F734D1F0AA4/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=BF82A0853AA94248BE359F734D1F0AA4/Scope/=C3001E7C0DA78E4487072B7E050D86C5/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=BF82A0853AA94248BE359F734D1F0AA4/Scope/=C3001E7C0DA78E4487072B7E050D86C5/CustomProperties/=minimumLanguageVersion/@EntryIndexedValue">2.0</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=BF82A0853AA94248BE359F734D1F0AA4/Scope/=C3001E7C0DA78E4487072B7E050D86C5/Type/@EntryValue">InCSharpFile</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=BF82A0853AA94248BE359F734D1F0AA4/Shortcut/@EntryValue">hrp_jgrid_dropdownlist_value</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=BF82A0853AA94248BE359F734D1F0AA4/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=BF82A0853AA94248BE359F734D1F0AA4/Text/@EntryValue">DEC/制单~t0/已审核~t1</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=D1966BE79913AA4ABDF1CAC270D7172A/@KeyIndexDefined">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=D1966BE79913AA4ABDF1CAC270D7172A/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=D1966BE79913AA4ABDF1CAC270D7172A/Categories/=nf_005Fhrp/@EntryIndexedValue">nf_hrp</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=D1966BE79913AA4ABDF1CAC270D7172A/Description/@EntryValue">hrp不分页</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=D1966BE79913AA4ABDF1CAC270D7172A/Reformat/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=D1966BE79913AA4ABDF1CAC270D7172A/Shortcut/@EntryValue">hrp_nofenye</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=D1966BE79913AA4ABDF1CAC270D7172A/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=D1966BE79913AA4ABDF1CAC270D7172A/Text/@EntryValue">string sql = "";&#xD;
+dblayer db = new dblayer();&#xD;
+&#xD;
+DataTable dt = db.getTable(sql);&#xD;
+&#xD;
+string jsonStr = "{\"rows\":";&#xD;
+jsonStr += JSONHelper.DataTableToJSON(dt);&#xD;
+jsonStr += "}";&#xD;
+&#xD;
+HttpContext.Current.Response.Write(jsonStr);&#xD;
+HttpContext.Current.Response.End();</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=D1966BE79913AA4ABDF1CAC270D7172A/Scope/=C3001E7C0DA78E4487072B7E050D86C5/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=D1966BE79913AA4ABDF1CAC270D7172A/Scope/=C3001E7C0DA78E4487072B7E050D86C5/CustomProperties/=minimumLanguageVersion/@EntryIndexedValue">2.0</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=D1966BE79913AA4ABDF1CAC270D7172A/Scope/=C3001E7C0DA78E4487072B7E050D86C5/Type/@EntryValue">InCSharpFile</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=D8DEB6CBD2AE654C8CDAC16E9DB524C7/@KeyIndexDefined">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=D8DEB6CBD2AE654C8CDAC16E9DB524C7/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=D8DEB6CBD2AE654C8CDAC16E9DB524C7/Categories/=nf_005Fhrp/@EntryIndexedValue">nf_hrp</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=D8DEB6CBD2AE654C8CDAC16E9DB524C7/Description/@EntryValue">ywh</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=D8DEB6CBD2AE654C8CDAC16E9DB524C7/Reformat/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=D8DEB6CBD2AE654C8CDAC16E9DB524C7/Shortcut/@EntryValue">sqllogger</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=D8DEB6CBD2AE654C8CDAC16E9DB524C7/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=D8DEB6CBD2AE654C8CDAC16E9DB524C7/Text/@EntryValue">//TODO: [yuwh] 移除SqlLogger&#xD;
+NingFan.Utility.DbHelper.SqlLogger.LogOnce($sqlList$);</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=D8DEB6CBD2AE654C8CDAC16E9DB524C7/Field/=sqlList/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=D8DEB6CBD2AE654C8CDAC16E9DB524C7/Field/=sqlList/Order/@EntryValue">0</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=D8DEB6CBD2AE654C8CDAC16E9DB524C7/Scope/=C3001E7C0DA78E4487072B7E050D86C5/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=D8DEB6CBD2AE654C8CDAC16E9DB524C7/Scope/=C3001E7C0DA78E4487072B7E050D86C5/CustomProperties/=minimumLanguageVersion/@EntryIndexedValue">2.0</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=D8DEB6CBD2AE654C8CDAC16E9DB524C7/Scope/=C3001E7C0DA78E4487072B7E050D86C5/Type/@EntryValue">InCSharpFile</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=F54DEB37421CFF4D89616979CC1990F2/@KeyIndexDefined">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=F54DEB37421CFF4D89616979CC1990F2/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=F54DEB37421CFF4D89616979CC1990F2/Categories/=yuwh/@EntryIndexedValue">yuwh</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=F54DEB37421CFF4D89616979CC1990F2/Description/@EntryValue">hrp下拉</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=F54DEB37421CFF4D89616979CC1990F2/Field/=160px/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=F54DEB37421CFF4D89616979CC1990F2/Field/=160px/Order/@EntryValue">2</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=F54DEB37421CFF4D89616979CC1990F2/Field/=kf/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=F54DEB37421CFF4D89616979CC1990F2/Field/=kf/Order/@EntryValue">1</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=F54DEB37421CFF4D89616979CC1990F2/Field/=TEXT/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=F54DEB37421CFF4D89616979CC1990F2/Field/=TEXT/Order/@EntryValue">0</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=F54DEB37421CFF4D89616979CC1990F2/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=F54DEB37421CFF4D89616979CC1990F2/Scope/=82F6FA20DDF804468BB3BD2973FF7AE3/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=F54DEB37421CFF4D89616979CC1990F2/Scope/=82F6FA20DDF804468BB3BD2973FF7AE3/Type/@EntryValue">InAspFile</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=F54DEB37421CFF4D89616979CC1990F2/Shortcut/@EntryValue">hrpc_dropdown</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=F54DEB37421CFF4D89616979CC1990F2/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=F54DEB37421CFF4D89616979CC1990F2/Text/@EntryValue">&lt;span class="t_items"&gt;&#xD;
+    &lt;label&gt;$TEXT$：&lt;/label&gt;&#xD;
+    &lt;telerik:RadDropDownList runat="server" ID="fm_$kf$" Width="$160px$"&gt;&#xD;
+    &lt;/telerik:RadDropDownList&gt;&#xD;
+&lt;/span&gt;</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=F5BBF13075D64B468A4B6562B8F03695/@KeyIndexDefined">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=F5BBF13075D64B468A4B6562B8F03695/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=F5BBF13075D64B468A4B6562B8F03695/Categories/=yuwh/@EntryIndexedValue">yuwh</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=F5BBF13075D64B468A4B6562B8F03695/Description/@EntryValue">hrp文本下拉</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=F5BBF13075D64B468A4B6562B8F03695/Field/=dm/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=F5BBF13075D64B468A4B6562B8F03695/Field/=dm/Order/@EntryValue">2</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=F5BBF13075D64B468A4B6562B8F03695/Field/=ks/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=F5BBF13075D64B468A4B6562B8F03695/Field/=ks/Order/@EntryValue">3</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=F5BBF13075D64B468A4B6562B8F03695/Field/=mc/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=F5BBF13075D64B468A4B6562B8F03695/Field/=mc/Order/@EntryValue">1</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=F5BBF13075D64B468A4B6562B8F03695/Field/=TEXT/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=F5BBF13075D64B468A4B6562B8F03695/Field/=TEXT/Order/@EntryValue">0</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=F5BBF13075D64B468A4B6562B8F03695/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=F5BBF13075D64B468A4B6562B8F03695/Scope/=82F6FA20DDF804468BB3BD2973FF7AE3/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=F5BBF13075D64B468A4B6562B8F03695/Scope/=82F6FA20DDF804468BB3BD2973FF7AE3/Type/@EntryValue">InAspFile</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=F5BBF13075D64B468A4B6562B8F03695/Shortcut/@EntryValue">hrpc_textdrop</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=F5BBF13075D64B468A4B6562B8F03695/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=F5BBF13075D64B468A4B6562B8F03695/Text/@EntryValue">&lt;span class="t_items"&gt;&#xD;
+    &lt;label&gt;$TEXT$：&lt;/label&gt;&#xD;
+    &lt;asp:TextBox ID="$mc$" CssClass="dyntxt" runat="server"&#xD;
+                    placeholder="$TEXT$" onkeydown="showSelectedWin('$ks$','$dm$','$mc$')"&#xD;
+                    onclick="showSelectedWin('$ks$', '$dm$', '$mc$')"&gt;&#xD;
+    &lt;/asp:TextBox&gt;&#xD;
+    &lt;asp:TextBox ID="$dm$" CssClass="txt" runat="server" Style="display: none"&#xD;
+                    placeholder="$TEXT$"&gt;&#xD;
+    &lt;/asp:TextBox&gt;&#xD;
+    &lt;script type="text/javascript"&gt;dyntxt('$mc$')&lt;/script&gt;&#xD;
+&lt;/span&gt;</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/StructuralSearch/Pattern/=BC3924466D0A3A42A585D0D43F79D0E4/@KeyIndexDefined">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/StructuralSearch/Pattern/=BC3924466D0A3A42A585D0D43F79D0E4/IsReplacePattern/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/StructuralSearch/Pattern/=BC3924466D0A3A42A585D0D43F79D0E4/LanguageName/@EntryValue">CSHARP</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/StructuralSearch/Pattern/=BC3924466D0A3A42A585D0D43F79D0E4/ReplacePattern/@EntryValue">Sqllogger</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/StructuralSearch/Pattern/=BC3924466D0A3A42A585D0D43F79D0E4/SearchPattern/@EntryValue">resharp</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/StructuralSearch/Pattern/=BC3924466D0A3A42A585D0D43F79D0E4/Severity/@EntryValue">SUGGESTION</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/Todo/TodoPatterns/=0A4664ADE151C349B62FB87D8470A5D9/@KeyIndexDefined">False</s:Boolean>
+	
+	
+	
+	
+	
+	
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/Todo/TodoPatterns/=159905677AC5DE48A815429FAE4D3DCC/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/Todo/TodoPatterns/=159905677AC5DE48A815429FAE4D3DCC/Color/@EntryValue">Cyan</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/Todo/TodoPatterns/=159905677AC5DE48A815429FAE4D3DCC/MatchComments/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/Todo/TodoPatterns/=159905677AC5DE48A815429FAE4D3DCC/Name/@EntryValue">(?&lt;=\W|^)(?&lt;TAG&gt;TODO)(\W|$)(.*)</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/Todo/TodoPatterns/=159905677AC5DE48A815429FAE4D3DCC/Pattern/@EntryValue">(?&lt;=\W|^)(?&lt;TAG&gt;TODO)(\W|$)(.*)</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/Todo/TodoPatterns/=159905677AC5DE48A815429FAE4D3DCC/TodoIconStyle/@EntryValue">Edit</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/Todo/TodoPatterns/=4386F01B791C56499C7EA059B55FFB54/@KeyIndexDefined">False</s:Boolean>
+	
+	
+	
+	
+	
+	
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/Todo/TodoPatterns/=7C7C41DA10D05540BC2DA84A05ACBDE6/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/Todo/TodoPatterns/=7C7C41DA10D05540BC2DA84A05ACBDE6/Color/@EntryValue">207, 157, 50</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/Todo/TodoPatterns/=7C7C41DA10D05540BC2DA84A05ACBDE6/MatchComments/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/Todo/TodoPatterns/=7C7C41DA10D05540BC2DA84A05ACBDE6/Name/@EntryValue">(?&lt;=\W|^)(?&lt;TAG&gt;BUG)(\W|$)(.*)</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/Todo/TodoPatterns/=7C7C41DA10D05540BC2DA84A05ACBDE6/Pattern/@EntryValue">(?&lt;=\W|^)(?&lt;TAG&gt;BUG)(\W|$)(.*)</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/Todo/TodoPatterns/=7C7C41DA10D05540BC2DA84A05ACBDE6/TodoIconStyle/@EntryValue">Error</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/Todo/TodoPatterns/=80F190FD56BA9F4E8CF17C1255CA025F/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/Todo/TodoPatterns/=80F190FD56BA9F4E8CF17C1255CA025F/Color/@EntryValue">207, 157, 50</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/Todo/TodoPatterns/=80F190FD56BA9F4E8CF17C1255CA025F/MatchComments/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/Todo/TodoPatterns/=80F190FD56BA9F4E8CF17C1255CA025F/Name/@EntryValue">\bNotImplementedException\b</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/Todo/TodoPatterns/=80F190FD56BA9F4E8CF17C1255CA025F/Pattern/@EntryValue">\bNotImplementedException\b</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/Todo/TodoPatterns/=80F190FD56BA9F4E8CF17C1255CA025F/TodoIconStyle/@EntryValue">Question</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/Todo/TodoPatterns/=961894CCC510410ABE2B99132B253C80/@KeyIndexDefined">False</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/Todo/TodoPatterns/=961894CCC510410ABE2B99132B253C80/Color/@EntryValue">Cyan</s:String>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/Todo/TodoPatterns/=FFFB69CCD2AB354ABD84CC3F62741E09/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/Todo/TodoPatterns/=FFFB69CCD2AB354ABD84CC3F62741E09/Color/@EntryValue">168, 192, 35</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/Todo/TodoPatterns/=FFFB69CCD2AB354ABD84CC3F62741E09/MatchComments/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/Todo/TodoPatterns/=FFFB69CCD2AB354ABD84CC3F62741E09/Name/@EntryValue">(?&lt;=\W|^)\[yuwh\](\W|$)(.*)</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/Todo/TodoPatterns/=FFFB69CCD2AB354ABD84CC3F62741E09/Pattern/@EntryValue">(?&lt;=\W|^)\[yuwh\](\W|$)(.*)</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/Todo/TodoPatterns/=FFFB69CCD2AB354ABD84CC3F62741E09/TodoIconStyle/@EntryValue">Question</s:String></wpf:ResourceDictionary>
